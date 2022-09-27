@@ -1,9 +1,16 @@
+
+
+
+
 .container{
     background: #000;
     width: 80%;
     height: 600px;
     margin: 20px auto;
+    
     display: flex;
+  justify-content: space-evenly;
+
 }
 
 .item{
@@ -11,5 +18,13 @@
     width: 100px;
     height: 100px;
     border: 2px solid white;
-    margin: 10px;
+    
+}
+h1{
+    color: rgb(19, 124, 216);
+    text-align: center;
+}
+img{
+    margin-left:400px;
+    border: rgb(213, 12, 12) solid 5px;
 }
